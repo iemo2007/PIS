@@ -1,0 +1,11 @@
+D:\Kareem\Freelance\New\PIS\PIS.DTO\bin\Debug\net6.0\PIS.DTO.deps.json
+D:\Kareem\Freelance\New\PIS\PIS.DTO\bin\Debug\net6.0\PIS.DTO.dll
+D:\Kareem\Freelance\New\PIS\PIS.DTO\bin\Debug\net6.0\PIS.DTO.pdb
+D:\Kareem\Freelance\New\PIS\PIS.DTO\obj\Debug\net6.0\PIS.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kareem\Freelance\New\PIS\PIS.DTO\obj\Debug\net6.0\PIS.DTO.AssemblyInfoInputs.cache
+D:\Kareem\Freelance\New\PIS\PIS.DTO\obj\Debug\net6.0\PIS.DTO.AssemblyInfo.cs
+D:\Kareem\Freelance\New\PIS\PIS.DTO\obj\Debug\net6.0\PIS.DTO.csproj.CoreCompileInputs.cache
+D:\Kareem\Freelance\New\PIS\PIS.DTO\obj\Debug\net6.0\PIS.DTO.dll
+D:\Kareem\Freelance\New\PIS\PIS.DTO\obj\Debug\net6.0\refint\PIS.DTO.dll
+D:\Kareem\Freelance\New\PIS\PIS.DTO\obj\Debug\net6.0\PIS.DTO.pdb
+D:\Kareem\Freelance\New\PIS\PIS.DTO\obj\Debug\net6.0\ref\PIS.DTO.dll

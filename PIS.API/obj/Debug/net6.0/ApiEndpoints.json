@@ -1,0 +1,408 @@
+[
+  {
+    "ContainingType": "PIS.API.Controllers.AccountController",
+    "Method": "UpdateUserData",
+    "RelativePath": "api/Account",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userData",
+        "Type": "PIS.DTO.UserData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.AccountController",
+    "Method": "GetAllUserData",
+    "RelativePath": "api/Account/GetAllUserData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDTO",
+        "Type": "PIS.DTO.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDTO",
+        "Type": "PIS.DTO.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.StationsController",
+    "Method": "GetAllStations",
+    "RelativePath": "api/Stations/GetAllStations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "PIS.DTO.StationsViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.StationsController",
+    "Method": "SearchTrain",
+    "RelativePath": "api/Stations/SearchTrain",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchFilter",
+        "Type": "PIS.DTO.TrainScheduleSearchFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PIS.DTO.TrainScheduleViewMode",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.TrainDelayReasonController",
+    "Method": "AddEditDelayReason",
+    "RelativePath": "api/TrainDelayReason/AddEditDelayReason",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "PIS.ViewModels.TrainDelayReasonViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.TrainDelayReasonController",
+    "Method": "DeleteDelayReason",
+    "RelativePath": "api/TrainDelayReason/DeleteDelayReason/{resonID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resonID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.TrainDelayReasonController",
+    "Method": "GetAllTrainDelayReasons",
+    "RelativePath": "api/TrainDelayReason/GetAllTrainDelayReasons",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PIS.ViewModels.TrainDelayReasonViewModel, PIS.ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.TrainsController",
+    "Method": "Create",
+    "RelativePath": "api/Trains",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objTrain",
+        "Type": "PIS.DTO.CreateNewTrainDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.TrainsController",
+    "Method": "GetTrainTripDetails",
+    "RelativePath": "api/Trains/GetTrainTripDetails/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PIS.DTO.TrainDisplayInfoViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.TrainsController",
+    "Method": "UpdateTrainTripDetails",
+    "RelativePath": "api/Trains/UpdateTrainTripDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "PIS.DTO.UpdateTrainTripRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.TrainsStationsController",
+    "Method": "SaveTrainStations",
+    "RelativePath": "api/TrainsStations/SaveTrainStations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "PIS.DTO.RequestDTO.UpdateTrainsTripRoutesRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.TrainsStationsController",
+    "Method": "SearchTrain",
+    "RelativePath": "api/TrainsStations/SearchTrain/{trainNo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trainNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PIS.DTO.TrainsTripRouteDTO, PIS.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.TrainStatusController",
+    "Method": "AddEditTrainStatus",
+    "RelativePath": "api/TrainStatus/AddEditTrainStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "PIS.ViewModels.TrainStatusViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.TrainStatusController",
+    "Method": "DeleteTrainStatus",
+    "RelativePath": "api/TrainStatus/DeleteTrainStatus/{statusID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "statusID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.TrainStatusController",
+    "Method": "GetAll",
+    "RelativePath": "api/TrainStatus/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PIS.ViewModels.TrainStatusViewModel, PIS.ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.TrainTimesController",
+    "Method": "DeleteTrainTime",
+    "RelativePath": "api/TrainTimes",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trainNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "startStation",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "finalStation",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.TrainTimesController",
+    "Method": "SearchTrain",
+    "RelativePath": "api/TrainTimes/SearchTrain/{TrainNo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TrainNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PIS.DTO.TrainDisplayInfoViewModel, PIS.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.TrainTripRoutController",
+    "Method": "GetDisplayTrainInfo",
+    "RelativePath": "api/TrainTripRout/GetDisplayTrainInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "PIS.DTO.TrainDisplayInfoViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PIS.API.Controllers.TrainOfTodayController",
+    "Method": "SearchTrain",
+    "RelativePath": "TrainOfToday/SearchTrain",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PIS.DTO.RequestDTO.SearchTrainRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PIS.DTO.TrainScheduleViewMode",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

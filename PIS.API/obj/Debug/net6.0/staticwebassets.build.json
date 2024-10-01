@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "13ACRu+VmFmzOtTPzqyDDPwPr9l1B2N83B29Hc0BfTw=",
+  "Source": "PIS.API",
+  "BasePath": "_content/PIS.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

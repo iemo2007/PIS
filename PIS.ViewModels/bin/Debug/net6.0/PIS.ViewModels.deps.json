@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PIS.ViewModels/1.0.0": {
+        "runtime": {
+          "PIS.ViewModels.dll": {}
+        },
+        "resources": {
+          "ar/PIS.ViewModels.resources.dll": {
+            "locale": "ar"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PIS.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

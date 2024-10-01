@@ -1,0 +1,12 @@
+D:\Kareem\Freelance\New\PIS\PIS.Models\bin\Debug\net6.0\PIS.Models.deps.json
+D:\Kareem\Freelance\New\PIS\PIS.Models\bin\Debug\net6.0\PIS.Models.dll
+D:\Kareem\Freelance\New\PIS\PIS.Models\bin\Debug\net6.0\PIS.Models.pdb
+D:\Kareem\Freelance\New\PIS\PIS.Models\obj\Debug\net6.0\PIS.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kareem\Freelance\New\PIS\PIS.Models\obj\Debug\net6.0\PIS.Models.AssemblyInfoInputs.cache
+D:\Kareem\Freelance\New\PIS\PIS.Models\obj\Debug\net6.0\PIS.Models.AssemblyInfo.cs
+D:\Kareem\Freelance\New\PIS\PIS.Models\obj\Debug\net6.0\PIS.Models.csproj.CoreCompileInputs.cache
+D:\Kareem\Freelance\New\PIS\PIS.Models\obj\Debug\net6.0\PIS.Models.dll
+D:\Kareem\Freelance\New\PIS\PIS.Models\obj\Debug\net6.0\refint\PIS.Models.dll
+D:\Kareem\Freelance\New\PIS\PIS.Models\obj\Debug\net6.0\PIS.Models.pdb
+D:\Kareem\Freelance\New\PIS\PIS.Models\obj\Debug\net6.0\ref\PIS.Models.dll
+D:\Kareem\Freelance\New\PIS\PIS.Models\obj\Debug\net6.0\PIS.Models.csproj.AssemblyReference.cache

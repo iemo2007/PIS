@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "FEeSPKhBeHRX1IkUn0GrQZo0naeN7mYB0snXi5M0N+Jg32YmlbHlkkwXmr75j+7qV6hw0y1XXhDXdFzOXE3+PQ==",
+  "success": true,
+  "projectFilePath": "D:\\Kareem\\Freelance\\New\\PIS\\PIS.WebApp\\PIS.WebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kareem.Karam\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Kareem.Karam\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Kareem.Karam\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Kareem.Karam\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Kareem.Karam\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Kareem.Karam\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
